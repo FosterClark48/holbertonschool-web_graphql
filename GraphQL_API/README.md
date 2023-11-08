@@ -1,6 +1,6 @@
 # GraphQL API
 
-![GraphQL API](https://github.com/FosterClark48/holbertonschool-web_back_end/assets/105602291/fullstack-graphql-api-project-banner)
+![image](https://github.com/linszay/holbertonschool-web_back_end/assets/105602291/ef36e1fd-01fe-4624-bcee-631bec621ff5)
 
 ## Resources :books:
 
