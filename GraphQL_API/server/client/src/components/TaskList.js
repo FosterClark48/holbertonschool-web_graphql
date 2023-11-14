@@ -29,7 +29,7 @@ function TaskList(props) {
   return (
     <div>
       <ul id="task-list">{displayTasks()}</ul>
-      <TaskDetails taskId ={state.selected} />
+      <TaskDetails taskId={state.selected} />
     </div>
   );
 }
