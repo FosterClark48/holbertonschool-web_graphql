@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { graphql } from 'react-apollo';
-import { getTasksQuery } from './queries/queries';
+import { getTasksQuery } from '../queries/queries';
 
 // components
 import TaskDetails from './TaskDetails';
