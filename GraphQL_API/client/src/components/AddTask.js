@@ -13,7 +13,7 @@ function AddTask(props) {
   });
   function displayProjects() {
     var data = props.getProjectsQuery;
-    if (data.loading) {
+    if (data) {
       return <option disabled>Loading projects...</option>;
     } else {
       return data.projects.map(project => {
@@ -96,6 +96,6 @@ function AddTask(props) {
 }
 
 export default compose(
-  graphql(getProjectsQuery, { name: getProjectsQuery }),
-  graphql(addTaskMutation, { name: addTaskMutation })
+  graphql(getProjectsQuery, { name: 'getProjectsQuery' }),
+  graphql(addTaskMutation, { name: 'addTaskMutation' })
   )(AddTask);
